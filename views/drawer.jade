@@ -1,0 +1,23 @@
+extend canvas_layout
+
+append body
+	img#timesUp(src='images/time.png')
+
+block canvas
+	canvas#drawpad.pad(height='500px', width='900px')
+
+block tools
+	p#time 
+		
+	p#item 
+		
+	button#clear
+		| Clear Canvas
+
+
+block modal
+	h1 You are the new drawer!
+	p You need to draw a:
+	p#modalItem 
+	
+block time

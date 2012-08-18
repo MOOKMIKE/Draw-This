@@ -1,0 +1,1 @@
+This is a web app that's similar to pictionary. It is my first major node.js tinkering/leanring project for myself. It utilizes jade, stylus and socket.io.

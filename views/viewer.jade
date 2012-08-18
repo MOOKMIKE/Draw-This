@@ -1,0 +1,11 @@
+extend canvas_layout
+block canvas 
+	canvas#viewpad.pad(height='500px', width='900px') 
+
+block tools
+	input#guessBox(type='text')
+	button#guessButton
+		| Guess!!
+
+block modal
+	h1 You Won!!

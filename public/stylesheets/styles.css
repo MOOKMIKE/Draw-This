@@ -1,0 +1,145 @@
+@import url("http://fonts.googleapis.com/css?family=Bangers");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+/*
+Base Styling
+*/
+body {
+  font-family: 'Georgia';
+  background-color: #e5ed9f;
+}
+header {
+  font-family: 'Bangers';
+  background-color: #1bc6e0;
+  font-size: 3em;
+  text-align: center;
+  height: 50px;
+}
+p {
+  text-align: center;
+  margin: 10px;
+}
+#canvas {
+  height: 500px;
+  width: 900px;
+  border: 15px ridge #523a0d;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.pad {
+  background-color: #fff;
+}
+#userTools {
+  position: relative;
+  top: -500px;
+  left: 1000px;
+  height: 400px;
+  width: 200px;
+}
+/*
+Draw Page Styling
+*/
+#timesUp {
+  position: absolute;
+  top: 300px;
+  left: 940px;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: alpha(opacity=0);
+}
+/*
+View Page Styling
+*/
+#viewpad {
+  background-color: #fff;
+}
